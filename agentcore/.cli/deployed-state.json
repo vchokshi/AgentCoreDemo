@@ -1,3 +1,21 @@
 {
-  "targets": {}
+  "targets": {
+    "default": {
+      "resources": {
+        "harnesses": {
+          "MyHarness": {
+            "harnessId": "AgentCoreDemo_MyHarness-fV5HEpQP0p",
+            "harnessArn": "arn:aws:bedrock-agentcore:us-east-1:012079073600:harness/AgentCoreDemo_MyHarness-fV5HEpQP0p",
+            "roleArn": "arn:aws:iam::012079073600:role/AgentCoreDemo_MyHarness",
+            "status": "READY",
+            "harnessVersion": 1,
+            "agentRuntimeArn": "arn:aws:bedrock-agentcore:us-east-1:012079073600:runtime/harness_AgentCoreDemo_MyHarness-xmmskRArp3",
+            "provisioner": "cloudformation"
+          }
+        },
+        "stackName": "AgentCore-AgentCoreDemo-default",
+        "deployHash": "b11faf210bbf22f1"
+      }
+    }
+  }
 }

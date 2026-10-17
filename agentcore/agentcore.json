@@ -17,12 +17,7 @@
   "policyEngines": [],
   "configBundles": [],
   "abTests": [],
-  "harnesses": [
-    {
-      "name": "MyHarness",
-      "path": "app/MyHarness"
-    }
-  ],
+  "harnesses": [],
   "datasets": [],
   "capacityProviders": [],
   "payments": []
